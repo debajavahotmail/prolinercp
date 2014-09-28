@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DashBoard>
+    <AvailableCharts>
+        <Chart type="PIE">
+            <Title>My Pie Chart</Title>
+            <xAxis>X-Axis</xAxis>
+            <yAxis>Y-Axis</yAxis>
+            <BatchDetails>Transaction Processing Batch</BatchDetails>
+            <DatabaseQuery>select * from BANKTRANSACTION &#xD;
+where TRANSACTIONTYPE = ?</DatabaseQuery>
+        </Chart>
+        <Chart type="BAR">
+            <Title>My Bar Chart</Title>
+            <xAxis>X-Axis</xAxis>
+            <yAxis>Y-Axis</yAxis>
+            <BatchDetails>OutGoing Payment Batch</BatchDetails>
+            <DatabaseQuery>select * from POPULATION where CITYNAME = ?</DatabaseQuery>
+        </Chart>
+        <Chart type="PIE">
+            <Title>Integration Pie Chart</Title>
+            <xAxis>Integration X Axis</xAxis>
+            <yAxis>Integration Y Axis</yAxis>
+            <BatchDetails>Transaction Processing Batch</BatchDetails>
+            <DatabaseQuery>select * from BANKTRANSACTION where TRANSACTIONTYPE = ?</DatabaseQuery>
+        </Chart>
+    </AvailableCharts>
+</DashBoard>

@@ -1,0 +1,17 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: a4Kwcg1XKWTS/SWuEwO7NCerMHQ=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: F+4dF3pMacuzY5lqBBJD7w0JR3U=
+
+Name: jars/slf4j-simple-1.7.5.jar
+SHA1-Digest: 4Ddldkw9PxFEH+iOTUuH65RlRPE=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA1-Digest: LKNAKV/2eTCgMt8bAfLOHeyd9jU=
+
+Name: about_files/slf4j-simple-LICENSE.txt
+SHA1-Digest: p5r7O0QsMXGzZHue3At9y9na8D4=
+
+Name: simplelogger.properties
+SHA1-Digest: ZEHt/PSPi93Rw3kWHDr6ITo22bs=
+

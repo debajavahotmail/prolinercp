@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROLINE>
+	<DBCONNECTIONS>
+		<SYSTEM id="proline">
+			<DBNAME>Oracle 11g</DBNAME>
+			<SCHEMA>orcl</SCHEMA>
+			<HOST>localhost</HOST>
+			<NAME>scott</NAME>
+			<PWD>tiger</PWD>
+		</SYSTEM>
+		<SYSTEM id="test">
+			<DBNAME>Oracle 11g</DBNAME>
+			<SCHEMA>orcl</SCHEMA>
+			<HOST>localhost</HOST>
+			<NAME>scott</NAME>
+			<PWD>tiger</PWD>
+		</SYSTEM>
+		<SYSTEM id="proline3">
+			<DBNAME>test</DBNAME>
+			<SCHEMA>orcl</SCHEMA>
+			<HOST>localhost</HOST>
+			<NAME>test</NAME>
+			<PWD>test</PWD>
+		</SYSTEM>
+		<SYSTEM id="proline4">
+			<DBNAME>Oracle 11g</DBNAME>
+			<SCHEMA>orcl</SCHEMA>
+			<HOST>localhost</HOST>
+			<NAME>scott</NAME>
+			<PWD>tiger</PWD>
+		</SYSTEM>
+		<SYSTEM id="proline1">
+			<DBNAME>Oracle 11g</DBNAME>
+			<SCHEMA>orcl</SCHEMA>
+			<HOST>localhost</HOST>
+			<NAME>scott</NAME>
+			<PWD>tiger</PWD>
+		</SYSTEM>
+	</DBCONNECTIONS>
+</PROLINE>

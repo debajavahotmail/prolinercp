@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<DASHBOARD>
+	<AVALABLE_CHARTS>
+		<AreaChart>AreaChart</AreaChart>
+		<BarChart>BarChart</BarChart>
+		<BarChart3D>BarChart3D</BarChart3D>
+		<!-- <BoxAndWhiskerChart>BoxAndWhiskerChart</BoxAndWhiskerChart>
+		<CandleStickChart>CandleStickChart</CandleStickChart>
+		<CategoryStepChart>CategoryStepChart</CategoryStepChart>
+		<CombinedCategoryPlot>CombinedCategoryPlot</CombinedCategoryPlot>
+		<DualAxisChart>DualAxisChart</DualAxisChart>
+		<HorizontalBarChart>HorizontalBarChart</HorizontalBarChart> -->
+		<PieChart>PieChart</PieChart>
+		<PieChart3D>PieChart3D</PieChart3D>
+		<StackedBarChart>StackedBarChart</StackedBarChart>
+		<StackedBarChart3D>StackedBarChart3D</StackedBarChart3D>
+		<MultiChart>MultiChart</MultiChart>
+		<!-- <WaterfallChart>WaterfallChart</WaterfallChart>
+		<XYAreaChart>XYAreaChart</XYAreaChart>
+		<XYLineChart>XYLineChart</XYLineChart> -->
+	</AVALABLE_CHARTS>
+</DASHBOARD>

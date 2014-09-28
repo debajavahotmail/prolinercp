@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<DASHBOARDVALUES>
+		<SYSTEM>FC
+			<DESCPRITION>EOD Batch Timing</DESCPRITION> 
+			<DB1>PROLINE</DB1>
+			<DB1USR>FC</DB1USR>
+			<PQ>select '','fail','hold','failhold','sucess','swamy' from dual
+union all
+select 'Result','20','10','20','30' ,'123' from dual</PQ>
+		</SYSTEM>
+		<SYSTEM>FC
+			<DESCPRITION>SWIFT O</DESCPRITION>
+			<DB1>PROLINE</DB1>
+			<DB1USR>FC</DB1USR>
+			<PQ>select SUCESS,FAIL from 
+(select count(*) SUCESS from dmtb_batch_job_history where TRUNC(business_date) = TO_DATE('2013-03-17','YYYY-MM-DD')
+and error_message in ('Completed successfully ','Batch jobs completed successfully ')) ss,
+(select count(*) FAIL from dmtb_batch_job_history where TRUNC(business_date) = TO_DATE('2013-03-17','YYYY-MM-DD')
+and error_message NOT in ('Completed successfully ','Batch jobs completed successfully ')) </PQ>
+		</SYSTEM>
+		<SYSTEM>FC
+			<DESCPRITION>SWIFT 1</DESCPRITION>
+			<DB1>PROLINE</DB1>
+			<DB1USR>PROLINE</DB1USR>
+			<PQ>select category,marks from chart_data</PQ>
+		</SYSTEM>
+		<SYSTEM>FC
+			<DESCPRITION>SWIFT 2</DESCPRITION>
+			<DB1>PROLINE</DB1>
+			<DB1USR>FC</DB1USR>
+			<PQ>SELECT * FROM TEST2</PQ>
+		</SYSTEM>
+		<SYSTEM>FC
+			<DESCPRITION>SWIFT 3</DESCPRITION>
+			<DB1>PROLINE</DB1>
+			<DB1USR>PROLINE</DB1USR>
+			<PQ>select category,marks from chart_data</PQ>
+		</SYSTEM>
+		<SYSTEM>FC
+			<DESCPRITION>SWIFT 6</DESCPRITION>
+			<DB1>PROLINE</DB1>
+			<DB1USR>PROLINE</DB1USR>
+			<PQ>select category,marks from chart_data</PQ>
+		</SYSTEM>
+</DASHBOARDVALUES>
+

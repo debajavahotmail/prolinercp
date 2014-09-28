@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application
+      	icon="pro_logo_small.png">
+         <run
+               class="com.proline.rcp.ui.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="Proline Perspective"
+            class="com.proline.rcp.ui.Perspective"
+            id="prolinercp.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      
+      <view
+            name="Details"
+            allowMultiple="true"
+            icon="icons/prolinelogoicon1.gif"
+            class="com.proline.rcp.ui.View"
+            restorable="false"
+            id="prolinercp.view">
+      </view>
+      
+      <!-- <view
+            name="Details"
+            allowMultiple="true"
+            icon="icons/prolinelogoicon1.gif"
+            class="com.proline.rcp.ui.View1"
+            id="prolinercp.view1">
+      </view> -->
+      
+      <view
+            name="ApplicationRoot"
+            allowMultiple="true"
+            icon="icons/prosyssols.png"
+            class="com.proline.rcp.ui.NavigationView" 
+            id="prolinercp.navigationView">
+      </view>
+      
+      <!-- For Charts -->
+      <view
+            name="DashBoard Charts"
+            allowMultiple="true"
+            icon="icons/chart-icon-224.png"
+            class="com.proline.rcp.views.ChartView" restorable="false"
+            id="prolinercp.chartview">
+      </view>
+      
+      <!-- Extended Dashboard View -->
+       <view
+            name="Extended Dashboard View"
+            allowMultiple="true"
+            icon="icons/chart-icon-224.png"
+            class="com.proline.rcp.views.ExtendedDashboardView" restorable="false"
+            id="prolinercp.extendedDashboardView">
+      </view>
+      
+      
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            name="Detail"
+            id="prolinercp.category">
+      </category>
+      <command
+            name="Open Details"
+            description="Opens a mailbox"
+            categoryId="prolinercp.category"
+            id="prolinercp.open">
+      </command>
+      <command
+            name="Open Message Dialog"
+            description="Open a message dialog"
+            categoryId="prolinercp.category"
+            id="prolinercp.openMessage">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="prolinercp.openMessage"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="CTRL+SHIFT+M">
+      </key>
+      <key
+            commandId="org.eclipse.ui.file.exit"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="CTRL+SHIFT+Q">
+      </key>
+   </extension>
+      <!-- Configuation Command -->
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="com.proline.rcp.actions.DashBoardConfigurationHandler"
+            id="com.proline.rcp.actions.DashBoardConfigurationHandlerId"
+            name="Configuration">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu">
+         <menu
+               id="configurationMenuId"
+               label="Configuration">
+            <command
+                  commandId="com.proline.rcp.actions.DashBoardConfigurationHandlerId"
+                  label="Dashboard Configuration"
+                  style="push" 
+                  icon="icons/dashboard-config-icon24.png"
+                  tooltip="Dashboard Configuration for Charts">
+            </command>
+         </menu>
+      </menuContribution>
+    </extension>  
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="prolinercp.application"
+            name="Proline Advance Application Monitoring System">
+         
+         <property
+               name="windowImages"
+               value="pro_logo(32x32).png">
+         </property>
+         <property
+               name="aboutText"
+               value="Proline Advance Application Monitoring System&#x0A;&#x0A;version: Pro-Line Release(1.0)&#x0A;Build id: 20140915-01000 &#x0A;&#x0A;(c) Copyright Project Systems &amp; Solutions 2014, All rights reserved. Proline and the &#x0A;Proline logo are trademarks of the Project Systems &amp; Solutions, http://www.prosyssols.com.&#x0A;The Proline logo cannot be altered without Project Systems &amp; Solutions permission. Proline&#x0A;logos are provided for use under the Proline logo and trademark guidelines, http://www.prosyssols.com.&#x0A;Other names may be trademarks of their respective owners.">               
+         </property>
+         <property
+               name="aboutImage"
+               value="UsAbout.png">
+         </property>
+         <property
+               name="appName"
+               value="Proline Advance Application Monitoring System">
+         </property>
+      </product>
+   </extension>
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="toc.xml"
+            primary="true">
+      </toc>
+      <toc
+            file="tocconcepts.xml">
+      </toc>
+      <toc
+            file="tocgettingstarted.xml">
+      </toc>
+      <toc
+            file="tocreference.xml">
+      </toc>
+      <toc
+            file="tocsamples.xml">
+      </toc>
+      <toc
+            file="toctasks.xml">
+      </toc>
+   </extension>
+
+</plugin>

@@ -1,0 +1,47 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.2
+Created-By: 1.7.0_45-b18 (Oracle Corporation)
+Built-By: Debadatta Mishra
+Bundle-ManifestVersion: 2
+Bundle-Name: Prolinercp
+Bundle-SymbolicName: prolinercp;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.proline.rcp.ui.Activator
+Bundle-Vendor: Proline - Debadatta Mishra
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Export-Package: com.proline.rcp.ui;
+  uses:="org.eclipse.jface.resource,
+   org.eclipse.ui.application,
+   org.eclipse.ui,
+   org.eclipse.ui.plugin,
+   org.eclipse.ui.part,
+   org.eclipse.jface.action,
+   com.proline.models,
+   org.eclipse.jface.viewers,
+   org.eclipse.equinox.app,
+   org.eclipse.swt.graphics,
+   org.osgi.framework,
+   org.eclipse.swt.widgets,
+   org.eclipse.jface.dialogs"
+Bundle-ClassPath: lib/ojdbc6.jar,
+ lib/dom4j-1.6.1.jar,
+ lib/poi-3.10-FINAL-20140208.jar,
+ lib/poi-ooxml-3.10-FINAL-20140208.jar,
+ lib/stax-api-1.0.1.jar,
+ lib/poi-ooxml-schemas-3.10-FINAL-20140208.jar,
+ lib/xmlbeans-2.3.0.jar,
+ lib/mail.jar,
+ lib/pro-xml_1.0.0.jar,
+ .,
+ lib/hamcrest-core-1.3.jar,
+ lib/jcommon-1.0.23.jar,
+ lib/jfreechart-1.0.19-experimental.jar,
+ lib/jfreechart-1.0.19-swt.jar,
+ lib/jfreechart-1.0.19.jar,
+ lib/jfreesvg-2.0.jar,
+ lib/orsoncharts-1.4-eval-nofx.jar,
+ lib/orsonpdf-1.6-eval.jar,
+ lib/swtgraphics2d.jar

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<PROLINE>
+	<DBCONNECTION_CBS>
+		<FC_SYSTEM>
+					<Online_Outgoing_Payments>Online Outgoing Payments</Online_Outgoing_Payments>
+					
+					<Jobs_executing_in_the_system>Jobs executing in the system</Jobs_executing_in_the_system>
+					
+					<INCOMING_SWIFT_MESSAGES>INCOMING SWIFT MESSAGES</INCOMING_SWIFT_MESSAGES>
+					
+					<Interest_and_Charges>Interest and Charges</Interest_and_Charges>
+					
+					<EOD_Batch_details_for_today>EOD Batch details for today</EOD_Batch_details_for_today>
+					
+					<EOB_Jobs_Monitoring>EOB Jobs Monitoring</EOB_Jobs_Monitoring>
+					
+					<Hati_Outgoing_Payments>Hati Payments</Hati_Outgoing_Payments>
+					
+					<PaymentChartBatch1>OutGoing Payment Batch</PaymentChartBatch1>
+					
+					<TransactionChartBatch1>Transaction Processing Batch</TransactionChartBatch1>
+		</FC_SYSTEM>
+		<EOD_PROCESS_MONITORING>
+					<CONSISTENCY_CHECK>CONSISTENCY CHECK</CONSISTENCY_CHECK>
+					
+					<PRE-EOD_POST_ICRESOLUTION_BATCH>PRE-EOD POST ICRESOLUTION BATCH</PRE-EOD_POST_ICRESOLUTION_BATCH>
+					
+					<EOD_STATUS_BATCH>EOD STATUS BATCH</EOD_STATUS_BATCH>
+					
+					<IC_BATCH_STATUS>IC BATCH STATUS</IC_BATCH_STATUS>
+					
+					<CL_BATCH_STATUS>CL BATCH STATUS</CL_BATCH_STATUS>
+					
+					<CRM-06>CRM 06</CRM-06>
+		</EOD_PROCESS_MONITORING>
+		<MB_SYSTEM>
+					<MB-BATCHES1>MB BATCHES1</MB-BATCHES1>
+					
+					<MB-BATCHES2>MB BATCHES2</MB-BATCHES2>
+					
+					<MB-SWIFT1>MB SWIFT1</MB-SWIFT1>
+					
+					<MB-SWIFT2>MB SWIFT2</MB-SWIFT2>
+					
+					<MB-SWIFT3>MB SWIFT3</MB-SWIFT3>
+					
+					<MB-SWIFT6>MB BATCHES6</MB-SWIFT6>
+		</MB_SYSTEM>
+		<EL_SYSTEM>
+					<EL-BATCHES1>EL BATCHES1</EL-BATCHES1>
+				
+					<EL-SWIFTO>EL SWIFTO</EL-SWIFTO>
+					
+					<EL-SWIFT1>EL SWIFT1</EL-SWIFT1>
+					
+					<EL-SWIFT2>EL SWIFT2</EL-SWIFT2>
+					
+					<EL-SWIFT3>EL SWIFT3</EL-SWIFT3>
+					
+					<EL-SWIFT6>EL SWIFT6</EL-SWIFT6>
+		</EL_SYSTEM>
+	</DBCONNECTION_CBS>
+</PROLINE>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<PROLINE>
+	<APPSCONNECTION>
+			<SYSTEM>
+				<APP1>192.168.1.100</APP1>
+				<APP1UID>proline</APP1UID>
+				<APP1PWD>proline</APP1PWD>
+			
+				<APP2>192.168.1.101</APP2>
+				<APP2UID>root</APP2UID>
+				<APP2PWD>proline</APP2PWD>
+		
+				<APP3>192.168.1.102</APP3>
+				<APP3UID>swamy</APP3UID>
+				<APP3PWD>proline</APP3PWD>
+			
+				<APP4>192.168.1.103</APP4>
+				<APP4UID>proline</APP4UID>
+				<APP4PWD>proline</APP4PWD>
+			
+				<APP5>192.168.1.104</APP5>
+				<APP5UID>swamy</APP5UID>
+				<APP5PWD>proline</APP5PWD>
+			
+				<APP6>192.168.1.105</APP6>
+				<APP6UID>root</APP6UID>
+				<APP6PWD>proline</APP6PWD>
+			</SYSTEM>
+	</APPSCONNECTION>
+</PROLINE>

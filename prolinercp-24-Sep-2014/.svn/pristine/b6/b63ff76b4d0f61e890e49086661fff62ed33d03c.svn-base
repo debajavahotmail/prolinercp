@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROLINE>
+	<MAILCONNETIONS>
+		<SYSTEM id="proline">
+			<HOST>smtp.live.com</HOST>
+			<PORT>587</PORT>
+			<USER>yerriswamy.p@prosyssols.com</USER>
+			<PWD>yerr1sw4m7</PWD>
+			<SUBJECT>Report : </SUBJECT>
+			<CONTENT>Hi All, 
+
+Please find the attached report.
+
+Thank You,
+ProlineTeam</CONTENT>
+		</SYSTEM>	
+	</MAILCONNETIONS>
+</PROLINE>		

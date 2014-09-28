@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProlineDefinition>
+	<SystemDefinition name="PaymentChartBatch1">
+		<Xref>PLDBC001</Xref>
+		<Description>OutGoing Payment Batch</Description>
+		<Level id="1">
+			<Name>proline</Name>
+			<User>EEFC7</User>
+			<PrimaryQuery>select CITYNAME,POPULATIONNO from POPULATION</PrimaryQuery>
+		</Level>
+	</SystemDefinition>
+	<SystemDefinition name="TransactionChartBatch1">
+		<Xref>PLDBC001</Xref>
+		<Description>Transaction Processing Batch</Description>
+		<Level id="1">
+			<Name>proline</Name>
+			<User>EEFC7</User>
+			<PrimaryQuery>select TRANSACTIONTYPE,TRANSACTIONCOUNT from BANKTRANSACTION</PrimaryQuery>
+		</Level>
+	</SystemDefinition>
+	<SystemDefinition name="Online_Outgoing_Payments">
+		<Xref>PLDBC001</Xref>
+		<Description>Online Outgoing Payments</Description>
+		<Level id="1">
+			<Name>proline</Name>
+			<User>EEFC7</User>
+			<PrimaryQuery>select * from ProlineEmployee</PrimaryQuery>
+		</Level>
+		<Level id="2">
+			<Name>proline1</Name>
+			<User>EEFC7</User>
+			<PrimaryQuery>select * from ProlinePersons</PrimaryQuery>
+			<Condition id ="1">
+                 <Operator>WHERE</Operator>
+                 <DestinationColName>FIRSTNAME</DestinationColName>
+                 <SourceColumnIndex>1</SourceColumnIndex>
+            </Condition>
+			<ColumnDefinition>
+				<Column>
+					<ColumnIndex>2</ColumnIndex>
+					<DataDefinition>
+						<Key>Pathak</Key>
+						<Value>Full Name : Swamy Pathak</Value>
+					</DataDefinition>
+					<DataDefinition>
+						<Key>Rao</Key>
+						<Value>Full Name : Swamy Rao</Value>
+					</DataDefinition>
+					<DataDefinition>
+						<Key>FD</Key>
+						<Value>Fixed Deposit</Value>
+					</DataDefinition>
+				</Column>
+				<Column>
+					<ColumnIndex>3</ColumnIndex>
+					<DataDefinition>
+						<Key>DEV</Key>
+						<Value>Development</Value>
+					</DataDefinition>
+					<DataDefinition>
+						<Key>MGR</Key>
+						<Value>Manager</Value>
+					</DataDefinition>
+					<DataDefinition>
+						<Key>FD</Key>
+						<Value>Fixed Deposit</Value>
+					</DataDefinition>
+				</Column>
+			</ColumnDefinition>
+		</Level>
+		<Level id="3">
+			<Name>proline1</Name>
+			<User>EEFC7</User>
+			<PrimaryQuery>select * from ProlineSalary</PrimaryQuery>
+			<Condition id ="1">
+                 <Operator>WHERE</Operator>
+                 <DestinationColName>FIRSTNAME</DestinationColName>
+                 <SourceColumnIndex>1</SourceColumnIndex>
+            </Condition>
+			<ColumnDefinition>
+				<Column>
+					<ColumnIndex>2</ColumnIndex>
+					<DataDefinition>
+						<Key>DEV</Key>
+						<Value>Development</Value>
+					</DataDefinition>
+					<DataDefinition>
+						<Key>MGR</Key>
+						<Value>Manager</Value>
+					</DataDefinition>
+					<DataDefinition>
+						<Key>FD</Key>
+						<Value>Fixed Deposit</Value>
+					</DataDefinition>
+				</Column>
+				<Column>
+					<ColumnIndex>2</ColumnIndex>
+					<DataDefinition>
+						<Key>DEV</Key>
+						<Value>Development</Value>
+					</DataDefinition>
+					<DataDefinition>
+						<Key>MGR</Key>
+						<Value>Manager</Value>
+					</DataDefinition>
+					<DataDefinition>
+						<Key>FD</Key>
+						<Value>Fixed Deposit</Value>
+					</DataDefinition>
+				</Column>
+			</ColumnDefinition>
+		</Level>
+		<Level id="4">
+			<Name>test</Name>
+			<User>EEFC7</User>
+			<PrimaryQuery>select * from ProlineProjects</PrimaryQuery>
+			<Condition id ="1">
+                 <Operator>WHERE</Operator>
+                 <DestinationColName>MANAGER</DestinationColName>
+                 <SourceColumnIndex>1</SourceColumnIndex>
+            </Condition>
+		</Level>
+		<Level id="5">
+			<Name>proline1</Name>
+			<User>EEFC7</User>
+			<PrimaryQuery>select * from ProlineAddress</PrimaryQuery>
+			<Condition id ="1">
+                 <Operator>WHERE</Operator>
+                 <DestinationColName>EMPNAME</DestinationColName>
+                 <SourceColumnIndex>3</SourceColumnIndex>
+            </Condition>
+		</Level>
+		<Level id="6">
+			<Name>proline1</Name>
+			<User>EEFC7</User>
+			<PrimaryQuery>select * from ProlinePayments</PrimaryQuery>
+			<Condition id ="1">
+                 <Operator>WHERE</Operator>
+                 <DestinationColName>EMPNAME</DestinationColName>
+                 <SourceColumnIndex>2</SourceColumnIndex>
+            </Condition>
+		</Level>
+		<Level id="7">
+			<Name>proline1</Name>
+			<User>EEFC7</User>
+			<PrimaryQuery>select * from ProlineCustomers</PrimaryQuery>
+			<Condition id ="1">
+                 <Operator>WHERE</Operator>
+                 <DestinationColName>MANAGEDBY</DestinationColName>
+                 <SourceColumnIndex>2</SourceColumnIndex>
+            </Condition>
+		</Level>
+		<Level id="8">
+			<Name>proline1</Name>
+			<User>EEFC7</User>
+			<PrimaryQuery>select * from ProlineDept</PrimaryQuery>
+			<Condition id ="1">
+                 <Operator>WHERE</Operator>
+                 <DestinationColName>EMPNAME</DestinationColName>
+                 <SourceColumnIndex>4</SourceColumnIndex>
+            </Condition>
+		</Level>
+	</SystemDefinition>
+	<SystemDefinition name="Jobs_executing_in_the_system">
+		<Xref>PLDBC001</Xref>
+		<Description>Jobs executing in the system</Description>
+		<Level id="1">
+			<Name>proline1</Name>
+			<User>EEFC7</User>
+			<PrimaryQuery>select * from ProlineWorldWide</PrimaryQuery>
+		</Level>
+		<Level id="2">
+			<Name>proline1</Name>
+			<User>EEFC7</User>
+			<PrimaryQuery>select * from ProlineTechnology</PrimaryQuery>
+			<Condition id ="1">
+                 <Operator>WHERE</Operator>
+                 <DestinationColName>HEADNAME</DestinationColName>
+                 <SourceColumnIndex>3</SourceColumnIndex>
+            </Condition>
+		</Level>
+		<Level id="3">
+			<Name>proline1</Name>
+			<User>EEFC7</User>
+			<PrimaryQuery>select * from ProlinePartners</PrimaryQuery>
+			<Condition id ="1">
+                 <Operator>WHERE</Operator>
+                 <DestinationColName>MANAGERNAME</DestinationColName>
+                 <SourceColumnIndex>3</SourceColumnIndex>
+            </Condition>
+		</Level>
+		<Level id="4">
+			<Name>proline1</Name>
+			<User>EEFC7</User>
+			<PrimaryQuery>select * from ProlineProduct</PrimaryQuery>
+			<Condition id ="1">
+                 <Operator>WHERE</Operator>
+                 <DestinationColName>HEADNAME</DestinationColName>
+                 <SourceColumnIndex>3</SourceColumnIndex>
+            </Condition>
+		</Level>
+		<Level id="5">
+			<Name>proline1</Name>
+			<User>EEFC7</User>
+			<PrimaryQuery>select * from ProlineEmployee</PrimaryQuery>
+			<Condition id ="1">
+                 <Operator>WHERE</Operator>
+                 <DestinationColName>FIRSTNAME</DestinationColName>
+                 <SourceColumnIndex>4</SourceColumnIndex>
+            </Condition>
+		</Level>
+		<Level id="6">
+			<Name>proline1</Name>
+			<User>EEFC7</User>
+			<PrimaryQuery>select * from ProlinePersons</PrimaryQuery>
+			<Condition id ="1">
+                 <Operator>WHERE</Operator>
+                 <DestinationColName>FIRSTNAME</DestinationColName>
+                 <SourceColumnIndex>1</SourceColumnIndex>
+            </Condition>
+		</Level>
+		<Level id="7">
+			<Name>proline1</Name>
+			<User>EEFC7</User>
+			<PrimaryQuery>select * from ProlineProjects</PrimaryQuery>
+			<Condition id ="1">
+                 <Operator>WHERE</Operator>
+                 <DestinationColName>MANAGER</DestinationColName>
+                 <SourceColumnIndex>1</SourceColumnIndex>
+            </Condition>
+		</Level>
+	</SystemDefinition>
+</ProlineDefinition>

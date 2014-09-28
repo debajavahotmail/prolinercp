@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProlineDefinition>
+		<SystemDefinition name="EOD BATCHES1">
+			<Xref>PLDBC001</Xref>
+			<Description>EOD BATCHES1</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>ls -lrt /home/proline/Documents/swamy</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>
+			
+		<SystemDefinition name="SWIFT O">
+			<Xref>PLDBC002</Xref>
+			<Description>SWIFT O</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>ls -lrt /home/proline/Documents/swamy</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>
+			
+		<SystemDefinition name="SWIFT 1">
+			<Xref>PLDBC003</Xref>
+			<Description>SWIFT 1</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>pwd</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>	
+			
+		<SystemDefinition name="SWIFT 2">
+			<Xref>PLDBC004</Xref>
+			<Description>SWIFT 2</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>ls -lrt /home/proline/Documents</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>	
+			
+		<SystemDefinition name="SWIFT 3">
+			<Xref>PLDBC005</Xref>
+			<Description>SWIFT 3</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>ls -ltr</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>
+			
+		<SystemDefinition name="SWIFT 6">
+			<Xref>PLDBC006</Xref>
+			<Description>SWIFT 6</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>ls </PrimaryQuery>
+			</Level>	
+		</SystemDefinition>	
+			
+		<SystemDefinition name="CRM 01">
+			<Xref>CRM001</Xref>
+			<Description>CRM 01</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>ls -fs</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>	
+		
+		<SystemDefinition name="CRM 02">
+			<Xref>CRM002</Xref>
+			<Description>CRM 02</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>ls -tr</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>
+			
+		<SystemDefinition name="CRM 03">
+			<Xref>CRM003</Xref>
+			<Description>CRM 03</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>ls -t</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>	
+			
+		<SystemDefinition name="CRM 04">
+			<Xref>CRM004</Xref>
+			<Description>CRM 04</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>ls -rst</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>	
+			
+		<SystemDefinition name="CRM 05">
+			<Xref>CRM005</Xref>
+			<Description>CRM 05</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>ls -tr</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>	
+			
+		<SystemDefinition name="CRM 06">
+			<Xref>CRM006</Xref>
+			<Description>CRM 06</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>ls -t /home</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>	
+			
+		<SystemDefinition name="MB BATCHES1">
+			<Xref>MB001</Xref>
+			<Description>MB BATCHES1</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>SELECT * from prosyssols_emp13</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>	
+			
+		<SystemDefinition name="MB BATCHES2">
+			<Xref>MB002</Xref>
+			<Description>MB BATCHES2</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>SELECT * from prosyssols_emp14</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>	
+			
+		<SystemDefinition name="MB BATCHES3">
+			<Xref>MB003</Xref>
+			<Description>MB BATCHES3</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>SELECT * from prosyssols_emp15</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>	
+		
+		<SystemDefinition name="MB BATCHES4">	
+			<Xref>MB004</Xref>
+			<Description>MB BATCHES4</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>SELECT * from prosyssols_emp16</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>	
+			
+		<SystemDefinition name="MB BATCHES5">
+			<Xref>MB005</Xref>
+			<Description>MB BATCHES5</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>SELECT * from prosyssols_emp17</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>	
+			
+		<SystemDefinition name="MB BATCHES6">
+			<Xref>MB006</Xref>
+			<Description>MB BATCHES6</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>SELECT * from prosyssols_emp18</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>	
+			
+		<SystemDefinition name="EL BATCHES1">
+			<Xref>EL001</Xref>
+			<Description>EL BATCHES1</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>SELECT * from prosyssols_emp19</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>	
+			
+		<SystemDefinition name="EL SWIFTO">	
+			<Xref>EL002</Xref>
+			<Description>EL SWIFTO</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>SELECT * from prosyssols_emp20</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>	
+			
+		<SystemDefinition name="EL SWIFT1">
+			<Xref>EL003</Xref>
+			<Description>EL SWIFT1</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>SELECT * from prosyssols_emp21</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>	
+			
+		<SystemDefinition name="EL SWIFT2">
+			<Xref>EL004</Xref>
+			<Description>EL SWIFT2</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>SELECT * from prosyssols_emp22</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>	
+			
+		<SystemDefinition name="EL SWIFT3">
+			<Xref>EL005</Xref>
+			<Description>EL SWIFT3</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>SELECT * from prosyssols_emp23</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>	
+			
+		<SystemDefinition name="EL SWIFT6">
+			<Xref>EL006</Xref>
+			<Description>EL SWIFT6</Description>
+			<Level id="1">
+				<Name>proline</Name>
+				<PrimaryQuery>SELECT * from prosyssols_emp24</PrimaryQuery>
+			</Level>	
+		</SystemDefinition>	
+</ProlineDefinition>

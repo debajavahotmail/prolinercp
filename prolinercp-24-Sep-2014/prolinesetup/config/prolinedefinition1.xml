@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Date 15th March 2013 2.5v xml -->
+<DBCONNECTION_CBS>
+	<SYSTEM id="Online_Outgoing_Payments">
+		<XREF>PLDBC001</XREF>
+		<DESCPRITION>Online Outgoing Payments</DESCPRITION>
+		<DBDetails id="1">
+			<NAME>proline</NAME>
+			<USER>EEFC7</USER>
+			<PQ>select * from emp</PQ>
+			<PQEX>
+			</PQEX>
+			<PQWC> cod_rectype </PQWC>
+			<PQWCOP> =</PQWCOP>
+			<PQWCPRIFIX> '</PQWCPRIFIX>
+			<PQWCMP>UPLOAD_CPMNT</PQWCMP>
+			<PQWCSUFFIX>' </PQWCSUFFIX>
+			<PQC1>
+			</PQC1>
+			<PQC1OP>
+			</PQC1OP>
+			<PQC1PRIFIX>
+			</PQC1PRIFIX>
+			<PQC1MP>
+			</PQC1MP>
+			<PQC1SUFFIX>
+			</PQC1SUFFIX>
+			<PQC2>
+			</PQC2>
+			<PQC2OP>
+			</PQC2OP>
+			<PQC2PRIFIX>
+			</PQC2PRIFIX>
+			<PQC2MP>
+			</PQC2MP>
+			<PQC2SUFFIX>
+			</PQC2SUFFIX>
+			<PQC3>
+			</PQC3>
+			<PQC3OP>
+			</PQC3OP>
+			<PQC3PRIFIX>
+			</PQC3PRIFIX>
+			<PQC3MP>
+			</PQC3MP>
+			<PQC3SUFFIX>
+			</PQC3SUFFIX>
+			<PQC4>
+			</PQC4>
+			<PQC4OP>
+			</PQC4OP>
+			<PQC4PRIFIX>
+			</PQC4PRIFIX>
+			<PQC4MP>
+			</PQC4MP>
+			<PQC4SUFFIX>
+			</PQC4SUFFIX>
+			<PQC5>
+			</PQC5>
+			<PQC5OP>
+			</PQC5OP>
+			<PQC5PRIFIX>
+			</PQC5PRIFIX>
+			<PQC5MP>
+			</PQC5MP>
+			<PQC5SUFFIX>
+			</PQC5SUFFIX>
+		</DBDetails>
+		<DBDetails id="2">
+			<NAME>PROLINE</NAME>
+			<USER>EEFC7</USER>
+			<PQ>select * from emp</PQ>
+			<PQEX>
+			</PQEX>
+			<PQWC> cod_rectype </PQWC>
+			<PQWCOP> =</PQWCOP>
+			<PQWCPRIFIX> '</PQWCPRIFIX>
+			<PQWCMP>UPLOAD_CPMNT</PQWCMP>
+			<PQWCSUFFIX>' </PQWCSUFFIX>
+			<PQC1>
+			</PQC1>
+			<PQC1OP>
+			</PQC1OP>
+			<PQC1PRIFIX>
+			</PQC1PRIFIX>
+			<PQC1MP>
+			</PQC1MP>
+			<PQC1SUFFIX>
+			</PQC1SUFFIX>
+			<PQC2>
+			</PQC2>
+			<PQC2OP>
+			</PQC2OP>
+			<PQC2PRIFIX>
+			</PQC2PRIFIX>
+			<PQC2MP>
+			</PQC2MP>
+			<PQC2SUFFIX>
+			</PQC2SUFFIX>
+			<PQC3>
+			</PQC3>
+			<PQC3OP>
+			</PQC3OP>
+			<PQC3PRIFIX>
+			</PQC3PRIFIX>
+			<PQC3MP>
+			</PQC3MP>
+			<PQC3SUFFIX>
+			</PQC3SUFFIX>
+			<PQC4>
+			</PQC4>
+			<PQC4OP>
+			</PQC4OP>
+			<PQC4PRIFIX>
+			</PQC4PRIFIX>
+			<PQC4MP>
+			</PQC4MP>
+			<PQC4SUFFIX>
+			</PQC4SUFFIX>
+			<PQC5>
+			</PQC5>
+			<PQC5OP>
+			</PQC5OP>
+			<PQC5PRIFIX>
+			</PQC5PRIFIX>
+			<PQC5MP>
+			</PQC5MP>
+			<PQC5SUFFIX>
+			</PQC5SUFFIX>
+		</DBDetails>
+		<DBDetails id="3">
+			<NAME>PROLINE</NAME>
+			<USER>EEFC7</USER>
+			<PQ>select * from emp</PQ>
+			<PQEX>
+			</PQEX>
+			<PQWC> cod_rectype </PQWC>
+			<PQWCOP> =</PQWCOP>
+			<PQWCPRIFIX> '</PQWCPRIFIX>
+			<PQWCMP>UPLOAD_CPMNT</PQWCMP>
+			<PQWCSUFFIX>' </PQWCSUFFIX>
+			<PQC1>
+			</PQC1>
+			<PQC1OP>
+			</PQC1OP>
+			<PQC1PRIFIX>
+			</PQC1PRIFIX>
+			<PQC1MP>
+			</PQC1MP>
+			<PQC1SUFFIX>
+			</PQC1SUFFIX>
+			<PQC2>
+			</PQC2>
+			<PQC2OP>
+			</PQC2OP>
+			<PQC2PRIFIX>
+			</PQC2PRIFIX>
+			<PQC2MP>
+			</PQC2MP>
+			<PQC2SUFFIX>
+			</PQC2SUFFIX>
+			<PQC3>
+			</PQC3>
+			<PQC3OP>
+			</PQC3OP>
+			<PQC3PRIFIX>
+			</PQC3PRIFIX>
+			<PQC3MP>
+			</PQC3MP>
+			<PQC3SUFFIX>
+			</PQC3SUFFIX>
+			<PQC4>
+			</PQC4>
+			<PQC4OP>
+			</PQC4OP>
+			<PQC4PRIFIX>
+			</PQC4PRIFIX>
+			<PQC4MP>
+			</PQC4MP>
+			<PQC4SUFFIX>
+			</PQC4SUFFIX>
+			<PQC5>
+			</PQC5>
+			<PQC5OP>
+			</PQC5OP>
+			<PQC5PRIFIX>
+			</PQC5PRIFIX>
+			<PQC5MP>
+			</PQC5MP>
+			<PQC5SUFFIX>
+			</PQC5SUFFIX>
+		</DBDetails>
+	</SYSTEM>
+		<SYSTEM id="Jobs_executing_in_the_system">
+		<XREF>PLDBC001</XREF>
+		<DESCPRITION>Jobs executing in the system</DESCPRITION>
+		<DBDetails id="1">
+			<NAME>proline</NAME>
+			<USER>EEFC7</USER>
+			<PQ>select * from DEPT</PQ>
+			<PQEX>
+			</PQEX>
+			<PQWC> cod_rectype </PQWC>
+			<PQWCOP> =</PQWCOP>
+			<PQWCPRIFIX> '</PQWCPRIFIX>
+			<PQWCMP>UPLOAD_CPMNT</PQWCMP>
+			<PQWCSUFFIX>' </PQWCSUFFIX>
+			<PQC1>
+			</PQC1>
+			<PQC1OP>
+			</PQC1OP>
+			<PQC1PRIFIX>
+			</PQC1PRIFIX>
+			<PQC1MP>
+			</PQC1MP>
+			<PQC1SUFFIX>
+			</PQC1SUFFIX>
+			<PQC2>
+			</PQC2>
+			<PQC2OP>
+			</PQC2OP>
+			<PQC2PRIFIX>
+			</PQC2PRIFIX>
+			<PQC2MP>
+			</PQC2MP>
+			<PQC2SUFFIX>
+			</PQC2SUFFIX>
+			<PQC3>
+			</PQC3>
+			<PQC3OP>
+			</PQC3OP>
+			<PQC3PRIFIX>
+			</PQC3PRIFIX>
+			<PQC3MP>
+			</PQC3MP>
+			<PQC3SUFFIX>
+			</PQC3SUFFIX>
+			<PQC4>
+			</PQC4>
+			<PQC4OP>
+			</PQC4OP>
+			<PQC4PRIFIX>
+			</PQC4PRIFIX>
+			<PQC4MP>
+			</PQC4MP>
+			<PQC4SUFFIX>
+			</PQC4SUFFIX>
+			<PQC5>
+			</PQC5>
+			<PQC5OP>
+			</PQC5OP>
+			<PQC5PRIFIX>
+			</PQC5PRIFIX>
+			<PQC5MP>
+			</PQC5MP>
+			<PQC5SUFFIX>
+			</PQC5SUFFIX>
+		</DBDetails>
+		<DBDetails id="2">
+			<NAME>PROLINE</NAME>
+			<USER>EEFC7</USER>
+			<PQ>select * from emp</PQ>
+			<PQEX>
+			</PQEX>
+			<PQWC> cod_rectype </PQWC>
+			<PQWCOP> =</PQWCOP>
+			<PQWCPRIFIX> '</PQWCPRIFIX>
+			<PQWCMP>UPLOAD_CPMNT</PQWCMP>
+			<PQWCSUFFIX>' </PQWCSUFFIX>
+			<PQC1>
+			</PQC1>
+			<PQC1OP>
+			</PQC1OP>
+			<PQC1PRIFIX>
+			</PQC1PRIFIX>
+			<PQC1MP>
+			</PQC1MP>
+			<PQC1SUFFIX>
+			</PQC1SUFFIX>
+			<PQC2>
+			</PQC2>
+			<PQC2OP>
+			</PQC2OP>
+			<PQC2PRIFIX>
+			</PQC2PRIFIX>
+			<PQC2MP>
+			</PQC2MP>
+			<PQC2SUFFIX>
+			</PQC2SUFFIX>
+			<PQC3>
+			</PQC3>
+			<PQC3OP>
+			</PQC3OP>
+			<PQC3PRIFIX>
+			</PQC3PRIFIX>
+			<PQC3MP>
+			</PQC3MP>
+			<PQC3SUFFIX>
+			</PQC3SUFFIX>
+			<PQC4>
+			</PQC4>
+			<PQC4OP>
+			</PQC4OP>
+			<PQC4PRIFIX>
+			</PQC4PRIFIX>
+			<PQC4MP>
+			</PQC4MP>
+			<PQC4SUFFIX>
+			</PQC4SUFFIX>
+			<PQC5>
+			</PQC5>
+			<PQC5OP>
+			</PQC5OP>
+			<PQC5PRIFIX>
+			</PQC5PRIFIX>
+			<PQC5MP>
+			</PQC5MP>
+			<PQC5SUFFIX>
+			</PQC5SUFFIX>
+		</DBDetails>
+		<DBDetails id="3">
+			<NAME>PROLINE</NAME>
+			<USER>EEFC7</USER>
+			<PQ>select * from emp</PQ>
+			<PQEX>
+			</PQEX>
+			<PQWC> cod_rectype </PQWC>
+			<PQWCOP> =</PQWCOP>
+			<PQWCPRIFIX> '</PQWCPRIFIX>
+			<PQWCMP>UPLOAD_CPMNT</PQWCMP>
+			<PQWCSUFFIX>' </PQWCSUFFIX>
+			<PQC1>
+			</PQC1>
+			<PQC1OP>
+			</PQC1OP>
+			<PQC1PRIFIX>
+			</PQC1PRIFIX>
+			<PQC1MP>
+			</PQC1MP>
+			<PQC1SUFFIX>
+			</PQC1SUFFIX>
+			<PQC2>
+			</PQC2>
+			<PQC2OP>
+			</PQC2OP>
+			<PQC2PRIFIX>
+			</PQC2PRIFIX>
+			<PQC2MP>
+			</PQC2MP>
+			<PQC2SUFFIX>
+			</PQC2SUFFIX>
+			<PQC3>
+			</PQC3>
+			<PQC3OP>
+			</PQC3OP>
+			<PQC3PRIFIX>
+			</PQC3PRIFIX>
+			<PQC3MP>
+			</PQC3MP>
+			<PQC3SUFFIX>
+			</PQC3SUFFIX>
+			<PQC4>
+			</PQC4>
+			<PQC4OP>
+			</PQC4OP>
+			<PQC4PRIFIX>
+			</PQC4PRIFIX>
+			<PQC4MP>
+			</PQC4MP>
+			<PQC4SUFFIX>
+			</PQC4SUFFIX>
+			<PQC5>
+			</PQC5>
+			<PQC5OP>
+			</PQC5OP>
+			<PQC5PRIFIX>
+			</PQC5PRIFIX>
+			<PQC5MP>
+			</PQC5MP>
+			<PQC5SUFFIX>
+			</PQC5SUFFIX>
+		</DBDetails>
+	</SYSTEM>
+	
+	
+
+</DBCONNECTION_CBS>
+	

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROLINE>
+	<APPCONNECTIONS>
+		<SYSTEM id="proline">
+			<HOST>192.168.1.100</HOST>
+			<NAME>proline</NAME>
+			<PWD>proline</PWD>
+		</SYSTEM>
+		<SYSTEM id="proline1">
+			<HOST>192.168.1.101</HOST>
+			<NAME>root</NAME>
+			<PWD>proline</PWD>
+		</SYSTEM>
+		<SYSTEM id="proline2">
+			<HOST>192.168.1.102</HOST>
+			<NAME>swamy</NAME>
+			<PWD>proline</PWD>
+		</SYSTEM>
+		<SYSTEM id="proline3">
+			<HOST>192.168.1.103</HOST>
+			<NAME>proline</NAME>
+			<PWD>proline</PWD>
+		</SYSTEM>
+		<SYSTEM id="proline4">
+			<HOST>192.168.1.104</HOST>
+			<NAME>swamy</NAME>
+			<PWD>proline</PWD>
+		</SYSTEM>
+		<SYSTEM id="proline5">
+			<HOST>192.168.1.105</HOST>
+			<NAME>root</NAME>
+			<PWD>proline</PWD>
+		</SYSTEM>
+	</APPCONNECTIONS>
+</PROLINE>
